@@ -1,0 +1,101 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set padding to display errors that occur during databinding */
+.padding-error {
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .nofloat {
+        float: none;
+        padding: 10px 15px;
+    }
+}
+
+
+/* STUFF I ADDED */
+.navbar-nav.nav-justified > li{
+    float:none;
+}
+
+.logo-mobile
+{
+    padding: 10px 0;
+}
+
+.logo-carousel
+{
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    top: 5%; 
+    bottom: 20%; 
+    z-index: 100;
+}
+
+.logo-mobile img,
+.logo-carousel img {
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.carousel-container {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.logo-mobile {
+		display: none;
+	}
+	
+	.carousel-container {
+		display: block;
+	}	
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Crimson Text', serif;
+    color: #594C41;
+}
+
+p, div {
+   font-family: 'Crimson Text', serif;
+}
+
+.navbar-button-text {
+	letter-spacing: 10px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.spacer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.form-control:focus {
+  border-color: #64A483;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(178, 220, 191, 1);
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+}
+
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 28px;        // Make inputs at least the height of their button counterpart
+  .box-sizing(border-box); // Makes inputs behave like true block-level elements
+}
