@@ -1,0 +1,8 @@
+{
+  "name": "I do - Wedding Planners",
+  "description": "I do - Wedding Planners web app",
+  "repository": "https://github.com/michaelviegas/ido-weddingplanners",
+  "website": "http://www.ido-weddingplanners.com/",  
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}

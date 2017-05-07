@@ -1,0 +1,26 @@
+{
+  "name": "ido-weddingplanners",
+  "version": "0.0.1",
+  "description": "I do - Wedding Planners web app",
+  "engines": {
+    "node": "6.10.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.5.6",
+    "express": "4.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelviegas/ido-weddingplanners"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
